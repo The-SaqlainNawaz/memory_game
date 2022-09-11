@@ -1,0 +1,10 @@
+.grid{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    padding: 0 0 0 350 ;
+}
+#lll{
+    padding: 100, 0,0,200;
+    color: green;
+}
