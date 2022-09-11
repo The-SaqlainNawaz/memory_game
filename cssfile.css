@@ -1,10 +1,33 @@
+body{
+    align-items: center;
+    display: flex;
+    padding-left: 250;
+    padding-top: 50;
+
+}
+.container{
+    margin-left: 100;
+    width: 800px;
+    height: 500px;
+    background-color: #C47F2E;
+    display: absolute;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#score{
+    color: white;
+    padding-left: 140;
+    padding-top: 20;
+
+}
 .grid{
+    background-color: #C47F2E;
     width: 400px;
     height: 300px;
-    align-items: center;
-    padding: 0 0 0 350 ;
-}
-#lll{
-    padding: 100, 0,0,200;
-    color: green;
+    padding-left: 200;
+    padding-top: 20;
+    position: flex;
+    background: #C47F2E;
+
 }
