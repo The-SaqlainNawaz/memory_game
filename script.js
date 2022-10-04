@@ -91,8 +91,9 @@ function check() {
     }
     ids = []
     rslt.textContent = result
-    if (result == card_array.length) {
-        rslt.textContent = 'Congratulation You are the Winner Champ!!'
+    if (result == card_array.length/2) {
+        score = document.querySelector('#score')
+        score.textContent="Congratulation You are the Winner Champ!!"
 
     }
 }
