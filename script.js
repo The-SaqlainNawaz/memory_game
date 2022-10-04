@@ -1,68 +1,52 @@
 const card_array = [
     {
-        name: 'cheeseburger',
-        img: 'images/cheeseburger.png'
+        name: 'watermelon',
+        img: 'images/w_melon.png'
     },
     {
-        name: 'fries',
-        img: 'images/fries.png'
-    },
-    {
-        name: 'hotdog',
-        img: 'images/hotdog.png'
+        name: 'watermelon',
+        img: 'images/w_melon.png'
     },
     {
         name: 'ice-cream',
         img: 'images/ice-cream.png'
     },
     {
-        name: 'milkshake',
-        img: 'images/milkshake.png'
+        name: 'ice-cream',
+        img: 'images/ice-cream.png'
     },
     {
-        name: 'pizza',
-        img: 'images/pizza.png'
+        name: 'cherry',
+        img: 'images/cherry.png'
     },
     {
-        name: 'cheeseburger',
-        img: 'images/cheeseburger.png'
+        name: 'cherry',
+        img: 'images/cherry.png'
+    },
+    {
+        name: 'lychee',
+        img: 'images/lychee.png'
+    },
+    {
+        name: 'lychee',
+        img: 'images/lychee.png'
     },
     {
         name: 'fries',
         img: 'images/fries.png'
     },
     {
-        name: 'hotdog',
-        img: 'images/hotdog.png'
-    },
-    {
-        name: 'ice-cream',
-        img: 'images/ice-cream.png'
-    },
-    {
-        name: 'milkshake',
-        img: 'images/milkshake.png'
-    },
-    {
-        name: 'cheeseburger',
-        img: 'images/cheeseburger.png'
-    },
-    {
         name: 'fries',
         img: 'images/fries.png'
     },
     {
-        name: 'hotdog',
-        img: 'images/hotdog.png'
+        name: 'chilli',
+        img: 'images/chilli.png'
     },
     {
-        name: 'ice-cream',
-        img: 'images/ice-cream.png'
-    },
-    {
-        name: 'milkshake',
-        img: 'images/milkshake.png'
-    },
+        name: 'chilli',
+        img: 'images/chilli.png'
+    }
 ]
 
 
@@ -77,7 +61,11 @@ rslt.textContent = 0
 function creare_board() {
     for (let i = 0; i < card_array.length; i++) {
         const card = document.createElement('img')
-        card.setAttribute('src', 'images/blank.png')
+        card.style.border="2px solid rgba(255,255,255)"
+        card.style.borderRadius="20px"
+        card.style.padding="10px"
+        card.style.margin="10px"
+        card.setAttribute('src', "images/q_mark.png")
         card.setAttribute('data_id', i)
         card.addEventListener('click', card_flip)
         grid_display.appendChild(card)
@@ -90,20 +78,20 @@ function check() {
     const rslt = document.querySelector('#span-score')
     const imgs = document.querySelectorAll('img')
     if (ids[0] != ids[1] && card_array[ids[0]].name == card_array[ids[1]].name) {
-        imgs[ids[0]].setAttribute('src', '')
-        imgs[ids[1]].setAttribute('src', '')
+        imgs[ids[0]].style.opacity="50%"
+        imgs[ids[1]].style.opacity="50%"
         imgs[ids[0]].removeEventListener('click', card_flip)
         imgs[ids[1]].removeEventListener('click', card_flip)
         result = result + 1;
 
     }
     else {
-        imgs[ids[0]].setAttribute('src', 'images/blank.png')
-        imgs[ids[1]].setAttribute('src', 'images/blank.png')
+        imgs[ids[0]].setAttribute('src', 'images/q_mark.png')
+        imgs[ids[1]].setAttribute('src', 'images/q_mark.png')
     }
     ids = []
     rslt.textContent = result
-    if (result == 6) {
+    if (result == card_array.length) {
         rslt.textContent = 'Congratulation You are the Winner Champ!!'
 
     }

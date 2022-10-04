@@ -4,32 +4,40 @@ body {
 
 }
 
-.container {
-    margin: 100;
+.main {
+
+    background-color: rgba(30, 30, 30);
+    border-radius: 20px;
+    /* margin: 100;
     width: 600px;
     height: 500px;
-    background-color: white;;
+    background-color: rgb(25, 250, 156);;
     display: flex;
     border: 1px solid rgba(59, 58, 59, 0.48);
-    border-radius: 20px;
+    
     box-shadow: -10px 5px 10px gray;
     justify-content: center;
-    padding: 30;
+    padding: 30; */
 }
 
 #score {
-
-    color: rgb(12, 12, 12);
+    display: flex;
+    margin: 30px;
+    padding-left: 50;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
 
 }
 .grid {
-    width: 400px;
-    height: 400px;
-    display: grid;
+    margin: 5px;
+    padding-left:45px;
+    height: 600px;
+    width: 600px;
+
+    /* display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     background-color: rgb(255, 253, 253);
-    margin: 20;
-
+    margin: 20; */
 }
