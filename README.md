@@ -15,7 +15,7 @@
 - removeEventListener ( )
 - textContent
 
-<h2 align="Center">Video</h2>
+<h2>Video</h2>
 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/81869501/193870374-d317af87-255b-4669-981b-a5d23b426d1c.gif)
