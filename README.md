@@ -19,5 +19,7 @@
 
 <video width="320" height="240" autoplay>
   <source src="https://user-images.githubusercontent.com/81869501/193866251-d2adc0cd-c43a-4915-b391-44808a661744.mp4" type="video/mp4" >
+  <source src="https://user-images.githubusercontent.com/81869501/193866251-d2adc0cd-c43a-4915-b391-44808a661744.mp4" type="video/ogg">
+  Your browser does not support the video tag.
 </video>
 
