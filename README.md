@@ -17,4 +17,7 @@
 
 <h2 align="Center">Screenshots</h2>
 
-<img align="center" src="https://user-images.githubusercontent.com/81869501/193865365-0a2ac4e1-378d-4428-a4cc-a510103748b4.PNG" alt="saqlain-nawaz-8aa273227/"/>
+<video width="320" height="240" controls>
+  <source src="https://user-images.githubusercontent.com/81869501/193866251-d2adc0cd-c43a-4915-b391-44808a661744.mp4" type="video/mp4">
+</video>
+
