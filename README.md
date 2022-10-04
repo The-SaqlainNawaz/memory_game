@@ -17,4 +17,4 @@
 
 <h2 align="Center">Screenshots</h2>
 
-<img align="center" src="[https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg](https://user-images.githubusercontent.com/81869501/193865365-0a2ac4e1-378d-4428-a4cc-a510103748b4.PNG)" alt="saqlain-nawaz-8aa273227/" height="30" width="40" />
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg](https://user-images.githubusercontent.com/81869501/193865365-0a2ac4e1-378d-4428-a4cc-a510103748b4.PNG" alt="saqlain-nawaz-8aa273227/" height="30" width="40" />
