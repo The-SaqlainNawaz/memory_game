@@ -18,4 +18,4 @@
 <h2 align="Center">Video</h2>
 
 
-<p align-"center">![ezgif com-gif-maker](https://user-images.githubusercontent.com/81869501/193870374-d317af87-255b-4669-981b-a5d23b426d1c.gif)</p>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/81869501/193870374-d317af87-255b-4669-981b-a5d23b426d1c.gif)
